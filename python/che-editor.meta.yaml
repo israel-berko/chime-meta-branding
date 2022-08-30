@@ -78,7 +78,10 @@ spec:
          - exposedPort: 13131
          - exposedPort: 13132
          - exposedPort: 13133
-     memoryLimit: "512M"
+     memoryLimit: "2048Mi"
+     memoryRequest: "512Mi"
+     cpuLimit: "4"
+     cpuRequest: "1"
   initContainers:
   - name: remote-runtime-injector
     image: "quay.io/eclipse/che-theia-endpoint-runtime-binary:7.21.2"
