@@ -78,7 +78,7 @@ spec:
          - exposedPort: 13131
          - exposedPort: 13132
          - exposedPort: 13133
-     memoryLimit: "1024Mi"
+     memoryLimit: "2048Mi"
      memoryRequest: "512Mi"
      cpuLimit: "2"
      cpuRequest: "1"
