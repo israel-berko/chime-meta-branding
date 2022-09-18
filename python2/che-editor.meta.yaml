@@ -84,7 +84,7 @@ spec:
      cpuRequest: "1"
   initContainers:
   - name: remote-runtime-injector
-    image: "quay.io/eclipse/che-theia-endpoint-runtime-binary:7.21.2"
+    image: "quay.io/eclipse/che-theia-endpoint-runtime-binary:7.29.2"
     volumes:
       - mountPath: "/remote-endpoint"
         name: remote-endpoint
